@@ -37,3 +37,62 @@ line-height: normal;
         margin: 0 auto;
     }
 }
+
+.mission-wrapp-mobile{
+    @media screen and (min-width: 1280px) {
+        display: none;
+    }
+}
+
+.mission-desk{
+
+    @media screen and (max-width: 1280px) {
+        display: none;
+    }
+    
+    &__title{
+        color: #000;
+        font-family: 'Bebas Neue', sans-serif;
+font-size: 96px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+max-width: 1056px;
+
+&--cover{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 20px;
+
+    &__desk{
+        color: #01A3A4;
+        font-family: 'Roboto', sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 3.5px;
+text-transform: uppercase;
+    }
+}
+    }
+
+    &__subtitle{
+        display: flex;
+        justify-content: end;
+        text-align: center;
+        font-family: 'Galada', cursive; 
+        color: var(--accent-color);
+font-size: 72px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+    }
+}
+
+.mission-desk-wrapp{
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}

@@ -12,10 +12,25 @@ line-height: normal;
 letter-spacing: 1.2px;
 text-transform: uppercase;
 margin-bottom: 10px;
+
+@media screen and (min-width: 1280px){
+    text-align: left;
+    letter-spacing: 3.5px;
+}
     }
 
     &__title{
         margin-bottom: 10px;
+
+        @media screen and (min-width: 1280px) {
+            color: #000;
+font-family: Bebas Neue;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-align: left;
+        }
     }
 
     &__customer{
@@ -27,6 +42,8 @@ margin-bottom: 10px;
      border-radius: 50%;
      overflow: hidden;
      object-fit: cover;
+
+  
      }
     }
 
@@ -101,6 +118,8 @@ position: relative;
 }
         }
     }
+
+    
 }
 
 .reviews__text::-webkit-scrollbar {
@@ -113,5 +132,90 @@ position: relative;
   }
 
   .reviews__text::-webkit-scrollbar-thumb {
+  background-color: rgba(116, 230, 207, 1),;
+  }
+
+  .mobile-rewievs{
+    @media screen and (min-width: 1280px) {
+        display: none;
+    }
+  }
+
+  .rewievs-desc{
+    @media screen and (max-width: 1279px) {
+        display: none;
+    }
+    
+    
+    &__name-wrapp{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 50px;
+    }
+
+    &__reting-wrapp{
+        display: flex;
+        gap: 5px;
+        align-items: center;
+    }
+
+    &__line{
+        margin-bottom: 30px;
+    }
+
+    &__text-wrapper{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        overflow: scroll;
+overflow-x: hidden;
+    }
+
+    &__text{
+        margin-right: 53px;
+    }
+
+    &__desc{
+        color: #01A3A4;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 3.5px;
+text-transform: uppercase;
+    }
+
+    &__title{
+        color: #000;
+font-family: Bebas Neue;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+    }
+
+    &__wrapp{
+        display: flex;
+        align-items: center;
+        gap: 97px;
+    }
+
+    &__arrow-wrapp{
+        margin-top: 60px;
+    }
+  }
+
+  .rewievs-desc__text-wrapper::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  .rewievs-desc__text-wrapper::-webkit-scrollbar-track {
+    background-color: rgba(192, 229, 148, 1);
+    scrollbar-width: 1px;
+  }
+
+  .rewievs-desc__text-wrapper::-webkit-scrollbar-thumb {
   background-color: rgba(116, 230, 207, 1),;
   }

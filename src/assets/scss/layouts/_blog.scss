@@ -2,9 +2,24 @@
 display: flex;
 flex-direction: column;
 
-&__wrapperr{
-    border: 1px solid #F0F8F6;
+&__list{
     padding-bottom: 30px;
+
+    &--item{
+        border: 1px solid #F0F8F6;
+    }
+
+    &--item-desc{
+        @media screen and (max-width: 1279px) {
+            display: none;
+        }
+    }
+
+    @media screen and (min-width: 1280px) {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
 }
     &__title{
         margin-bottom: 25px;
@@ -12,7 +27,6 @@ flex-direction: column;
     
     &__img{
         width: 100%;
-        margin-bottom: 25px;
     }
 
     &__subtitle{
@@ -27,7 +41,7 @@ margin-bottom: 18px;
     }
 
 &__wrapp{
-    padding: 0 25px;
+    padding: 40px;
 }
 
 &__line{
@@ -42,6 +56,10 @@ font-style: normal;
 font-weight: 400;
 line-height: 150%;
 margin-bottom: 20px;
+
+@media screen and (min-width: 1280px) {
+    margin-bottom: 37px;
+}
 }
 
 &__link{
@@ -85,6 +103,10 @@ gap: 10px;
 align-items: center;
 margin-top: 25px;
 padding: 0 53px;
+
+@media screen and (min-width: 1280px) {
+    display: none;
+}
 
 &--line.active{
 width: 214px;

@@ -30,4 +30,38 @@ margin-bottom: 17px;
             width: 100%;
         }
     }
+
+    &__info-desc{
+        width: 520px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 30px;
+
+        &--wrapp{
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+    }
+}
+
+.box-wrapp{
+    @media screen and (min-width: 1280px) {
+        display: none;
+    }
+}
+
+.box-wrapp-desc{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    @media screen and (max-width: 1279px) {
+        display: none;
+    }
+}
+
+.box-wrapp-desc-img{
+    display: flex;
+    gap: 5px;
 }

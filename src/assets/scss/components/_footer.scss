@@ -3,6 +3,10 @@
     &__wrapp{
         border-top: 2px solid #F0F8F6;
         border-bottom: 2px solid #F0F8F6;
+
+        @media screen and (min-width: 1280px) {
+            display: none;
+        }
     }
 
     &__logo{
@@ -48,6 +52,10 @@ margin-bottom: 30px;
         align-items: center;
         justify-content: center;
         margin-top: 10px;
+
+        @media screen and (min-width: 1280px) {
+            display: none;
+        }
     }
 
     &__info{
@@ -74,5 +82,79 @@ margin-right: 5px;
     &__development-logo{
         width: 38px;
 height: 30px;
+    }
+}
+
+
+
+.footer-desc{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    @media screen and (max-width: 1279px) {
+        display: none;
+    }
+
+    &__nav{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+
+        &--link{
+            color: #212121;
+            font-family: 'Bebas Neue', sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.9px;
+        }
+    }
+
+    &__logo{
+        width: 95px;
+height: 50px;
+    }
+
+    &__sicial-nav{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+
+    &__rights{
+@media screen and (max-width: 1279px) {
+    display: none;
+}
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 86px;
+
+        &--text{
+            color: #696969;
+            font-family: 'Roboto', sans-serif;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+        }
+
+        &--development{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+            &__text{
+                color: #696969;
+                font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+            }
+        }
     }
 }

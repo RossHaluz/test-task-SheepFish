@@ -117,7 +117,7 @@ title: Home
       <h2 class="works__title section-title">How it Works</h2>
       <ul class="works__list">
         <li class="works__list-item">
-          <img src="./assets/images/works-img1.png" alt="Works img" />
+          <img src="./assets/images/One.png" alt="Works img" />
           <div>
             <h3 class="works__list-item__title">Join The Movement</h3>
             <p class="works__list-item__desc">
@@ -138,7 +138,7 @@ title: Home
           </div>
         </li>
         <li class="works__list-item">
-          <img src="./assets/images/works-img2.png" alt="Works img" />
+          <img src="./assets/images/Two.png" alt="Works img" />
           <div>
             <h3 class="works__list-item__title">Get Your Box</h3>
             <p class="works__list-item__desc">
@@ -159,7 +159,7 @@ title: Home
           </div>
         </li>
         <li class="works__list-item">
-          <img src="./assets/images/works-img3.png" alt="Works img" />
+          <img src="./assets/images/Three.png" alt="Works img" />
           <div>
             <h3 class="works__list-item__title">Make a Difference</h3>
             <p class="works__list-item__desc">
@@ -189,7 +189,9 @@ title: Home
   <!-- Box Section -->
   <section class="box section">
     <div class="container">
-      <img src="./assets/images/line.png" class="box__line-img" alt="Line" />
+      <div class="box-wrapp">
+      <div class="box-info-wrapp">
+        <img src="./assets/images/line.png" class="box__line-img" alt="Line" />
       <h2 class="box__title section-title">BOX OF A MONTH</h2>
       <p class="box__desc">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -201,6 +203,7 @@ title: Home
         mollit anim id est laborum
       </p>
 
+    </div>
       <div class="box__wrapp">
         <img
           src="./assets/images/box-1.jpg"
@@ -213,17 +216,37 @@ title: Home
           class="box__wrapp--img"
         />
       </div>
+
+      <div class="btn-wrapp">
+        <button class="box__btn btn">See What's Inside</button>
+    </div>
 </div>
 
-<div class="btn-wrapp">
-      <button class="box__btn btn">See What's Inside</button>
+
+<!--Desc-->
+<div class="box-wrapp-desc">
+  <div class="box-wrapp-desc-img">
+    <img src="./assets/images/box-img-desc1.png" alt="Box img">
+    <img src="./assets/images/box-img-desc2.png" alt="Box img">
   </div>
-    </div>
+
+  <div class="box__info-desc">
+    <div class="box__info-desc--wrapp">
+    <img src="./assets/images/line.png" alt="Line">
+    <h2 class="box__info-desc--title">BOX OF A MONTH</h2>
+  </div>
+    <p class="box__info-desc--desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+  <button class="box__info-desc--btn btn">See What's Inside</button>
+  </div>
+</div>
+
+  </div>
   </section>
 
   <!-- OUR MISSION Section -->
   <section class="mission section">
     <div class="container">
+      <div class="mission-wrapp-mobile">
       <img src="./assets/images/line.png" alt="" class="mission__line" />
       <p class="mission__desc">OUR MISSION</p>
       <h2 class="mission__title section-title">
@@ -238,6 +261,23 @@ title: Home
         class="mission__img"
       />
     </div>
+
+    <!--MISSION DESC-->
+    <div class="mission-desk">
+      <div class="mission-desk-wrapp">
+      <img src="./assets/images/step-desc.png" alt="Step" width="123px" height="103px" class="mission-desk__img">
+      <div class="mission-desk__title-wrapp">
+        <div class="mission-desk__title--cover">
+          <img src="./assets/images/line.png" alt="Line" class="mission-desk__line">
+          <p class="mission-desk__title--cover__desk">OUR MISSION</p>
+        </div>
+        <h2 class="mission-desk__title">We are here to help you live greener and more sustainably</h2>
+      </div>
+    </div>
+
+    <h3 class="mission-desk__subtitle">Small steps matter </h3>
+    </div>
+    </div>
   </section>
 
   <!-- Recent Posts Section -->
@@ -248,42 +288,55 @@ title: Home
       </p>
       <h2 class="posts__title section-title">Recent Posts</h2>
 
-      <ul class="posts__list card-set">
-        <li class="posts__list--item card-set-iteam">
+      <!-- <div class="posts__list-wrapper"> -->
+      <ul class="posts__list">
+        <li class="posts__list--item">
           <img
-            src="./assets/images/post1.jpg"
+            src="./assets/images/post-desc3.jpg"
             alt="Post"
             width="144px"
             height="165px"
             class="posts__list--item__img"
           />
         </li>
-        <li class="posts__list--item card-set-iteam">
+        <li class="posts__list--item">
           <img
-            src="./assets//images/post2.jpg"
+            src="./assets//images/post-desc4.jpg"
             alt="Post"
             class="posts__list--item__img"
           />
         </li>
-        <li class="posts__list--item card-set-iteam">
+        <li class="posts__list--item">
           <img
-            src="./assets//images/post3.jpg"
+            src="./assets//images/post-desc5.jpg"
             alt="Post"
             width="144px"
             height="165px"
             class="posts__list--item__img"
           />
         </li>
-        <li class="posts__list--item card-set-iteam">
+        <li class="posts__list--item">
           <img
-            src="./assets/images/post4.jpg"
+            src="./assets/images/post-desc6.jpg"
             alt="Post"
             width="144px"
             height="165px"
             class="posts__list--item__img"
           />
+        </li>
+
+        <li class="posts__list--item big-img">
+          <img src="./assets/images/post-big-img.jpg" alt="Post img" width="246px" height="246px">
+        </li>
+
+        <li class="posts__list--item img-desc">
+          <img src="./assets/images/post-img-desc1.jpg" alt="Post img" width="246px" height="246px">
+        </li>
+        <li class="posts__list--item img-desc">
+          <img src="./assets/images/post-img-desc2.jpg" alt="Post img" width="246px" height="246px">
         </li>
       </ul>
+    <!-- </div> -->
     </div>
   </section>
 
@@ -291,7 +344,8 @@ title: Home
   <section class="blog section">
     <div class="container">
       <h2 class="blog__title section-title">What's new in blog?</h2>
-      <div class="blog__wrapperr">
+      <ul class="blog__list">
+        <li class="blog__list--item">
         <img
           src="./assets/images/blog-img1.png"
           alt="Blog img"
@@ -310,7 +364,50 @@ title: Home
             >
           </div>
         </div>
-      </div>
+      </li>
+
+      <li class="blog__list--item blog__list--item-desc">
+        <img
+          src="./assets/images/blog-img1.png"
+          alt="Blog img"
+          class="blog__img"
+        />
+        <div class="blog__wrapp">
+          <h3 class="blog__subtitle">Why KIWI Eco Box?</h3>
+          <img src="./assets/images/line.png" alt="Line" class="blog__line" />
+          <p class="blog__desc">
+            Get started by signing up for monthly subscription. We bring you an
+            easy way to start your zero-waste journey
+          </p>
+          <div class="blog__link-wrapp">
+            <a href="/" class="blog__link"
+              >Read more <span class="blog__link--pluss">+</span></a
+            >
+          </div>
+        </div>
+      </li>
+
+      <li class="blog__list--item blog__list--item-desc">
+        <img
+          src="./assets/images/blog-img1.png"
+          alt="Blog img"
+          class="blog__img"
+        />
+        <div class="blog__wrapp">
+          <h3 class="blog__subtitle">Why KIWI Eco Box?</h3>
+          <img src="./assets/images/line.png" alt="Line" class="blog__line" />
+          <p class="blog__desc">
+            Get started by signing up for monthly subscription. We bring you an
+            easy way to start your zero-waste journey
+          </p>
+          <div class="blog__link-wrapp">
+            <a href="/" class="blog__link"
+              >Read more <span class="blog__link--pluss">+</span></a
+            >
+          </div>
+        </div>
+      </li>
+      </ul>
 
       <div class="blog__slider">
         <div class="blog__slider--line active"></div>
@@ -323,6 +420,7 @@ title: Home
   <!-- Sign up Section -->
   <section class="signup section">
     <div class="container">
+      <div class="sign-up-mobile">
       <img src="./assets/images/line.png" alt="" class="signup__line" />
       <p class="signup__desc">Stay in the know</p>
       <h2 class="signup__title section-title">
@@ -338,9 +436,10 @@ title: Home
         <span class="signup__subtitle--accent"> to your inbox!</span>
       </h3>
 
-      <form class="signup__form">
+      <form class="signup__form" id="emailForm">
         <input
-          type="text"
+          type="email"
+          name = "email"
           placeholder="Your email adress"
           class="signup__form--input"
         />
@@ -353,11 +452,44 @@ title: Home
         accept our web terms of use and privacy and cookie policy
       </p>
     </div>
+
+    <!--Desc-->
+    <div class="sign-up-desc">
+      <p class="sign-up-desc__desc">Stay in the know</p>
+
+      <div class="sign-up-title-wrapper">
+        <img src="./assets/images/line.png" alt="Line">
+        <h2 class="sign-up-desc__title">Hear about the latest sneak peaks and spoilers</h2>
+      </div>
+      <h3 class="sign-up-desc__subtitle">get CAUSEBOX delivered directly <span class="sign-up-desc__subtitle--accent">to your inbox!</span></h3>
+     <div>
+      <div>
+        
+      </div>
+     </div>
+<div class="sign-up-desc__wrapper">
+  <div>
+    <form class="sign-up-desc__form" id="emailForm" role="form">
+      <input type="email" name="email" class="sign-up-desc__form--input" placeholder="Your email adress" >
+      <button type="submit" class="sign-up-desc__form--btn btn">Sign up</button>
+    </form>
+    <p class="sign-up-desc__cookie">By clicking "sign up" you agree to receive emails from CAUSEBOX and accept our web terms of use and privacy and cookie policy</p>
+  </div>
+  
+<!-- <div class="sign-up-desc__banner">
+  <img src="./assets/images/signin-img-desc.png" alt="Sign-in img"  class="sign-up-desc__banner">
+</div> -->
+  </div>
+</div>
+
+  </div>
+    </div>
   </section>
 
   <!-- clients say Section -->
   <section class="reviews section">
     <div class="container">
+      <div class="mobile-rewievs">
       <p class="reviews__desc">What do our</p>
       <h2 class="reviews__title section-title">clients say</h2>
 
@@ -389,6 +521,7 @@ title: Home
             </div>
          </div>
         </div>
+
       </div>
 
       <img src="./assets/images/line.png" alt="Line" class="reviews__line" />
@@ -410,9 +543,63 @@ title: Home
         </button>
       </div>
     </div>
+
+    <!--DESC-->
+    <div class="rewievs-desc">
+      <p class="rewievs-desc__desc">What do our</p>
+      <h2 class="rewievs-desc__title">clients say</h2>
+
+      <div class="rewievs-desc__wrapp">
+        <img src="./assets/images/rewievs-banner.png" alt="Banner">
+
+        <div class="rewievs-desc__info">
+          <div class="rewievs-desc__info--wrapp">
+          <div class="rewievs-desc__name-wrapp">
+          <h3 class="rewievs-desc__name">Jessica T.</h3>
+
+          <div class="rewievs-desc__reting-wrapp">
+            <img src="./assets/images/star.png" alt="" class="reviews__customer--star" width="16" height="16"/>
+            <img src="./assets/images/star.png" alt="" class="reviews__customer--star" width="16" height="16"/>
+            <img src="./assets/images/star.png" alt="" class="reviews__customer--star" width="16" height="16"/>
+            <img src="./assets/images/star.png" alt="" class="reviews__customer--star" width="16" height="16"/>
+            <img src="./assets/images/star.png" alt="" class="reviews__customer--star" width="16" height="16"/>
+
+            <span class="reviews__customer--rating">5/5</span>
+          </div>
+        </div>
+
+        <img src="./assets/images/line.png" alt="Line" class="rewievs-desc__line">
+
+          <div class="rewievs-desc__text-wrapper">
+          <p class="rewievs-desc__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+          </p>
+          <p class="rewievs-desc__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+          </p>
+        </div>
+        </div>
+
+
+        <div class="rewievs-desc__arrow-wrapp">
+          <button type="button" class="reviews__arrow-wrapp--btn">
+              <img src="./assets/images/arrow-left.png" alt="arrow" class="reviews__arrow-wrapp--btn__img" width="11">
+          </button>
+          <button type="button" class="reviews__arrow-wrapp--btn">
+              <img src="./assets/images/arrow-rigth.png" alt="arrow" class="reviews__arrow-wrapp--btn__img" height="11">
+          </button>
+        </div>
+        </div>
+
+
+      </div>
+    </div>
+
+    </div>
   </section>
 
 </main>
 
 <script src="./assets/js/main.min.js"></script>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
