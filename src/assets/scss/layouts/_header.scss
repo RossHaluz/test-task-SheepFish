@@ -1,0 +1,40 @@
+.header{
+    background-color: var(--text-color-white);
+    width: 100%;
+    font-weight: 700;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    border-bottom: 1px solid #ececec;
+    padding: 5px 0;
+
+    &__nav{
+        display: none;
+
+        @media screen and (min-width: 1024px) {
+            display: flex;
+            align-items: center;
+            gap: 100px;
+        }
+
+        &--link{
+            color: #212121;
+            font-family: 'Bebas Neue', sans-serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.2px;
+        }
+    }
+}
+
+.header__wrapp{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    @media screen and (min-width: 1024px) {
+        justify-content: center;
+        gap: 100px;
+    }
+}

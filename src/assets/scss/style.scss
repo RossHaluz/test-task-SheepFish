@@ -1,0 +1,30 @@
+// utils styles
+@import 'utils/variables';
+
+// base styles
+@import 'base/base';
+@import 'base/reset';
+
+
+// components styles
+@import 'components/container';
+@import 'components/section';
+@import 'components/title';
+@import 'components/btn';
+@import 'components/logo';
+@import 'components/mobile-menu';
+@import 'components/card-set';
+@import 'components/footer';
+
+
+// layout styles
+@import 'layouts/header';
+@import 'layouts/hero';
+@import 'layouts/works';
+@import 'layouts/box';
+@import 'layouts/mission';
+@import 'layouts/posts';
+@import 'layouts/blog';
+@import 'layouts/signup';
+@import 'layouts/reviews';
+

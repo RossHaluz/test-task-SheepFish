@@ -1,0 +1,97 @@
+.signup {
+  background-color: rgba(240, 248, 246, 1);
+
+  &__line {
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+
+  &__desc {
+    color: #01a3a4;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+
+  &__title {
+    margin-bottom: 10px;
+  }
+
+  &__img {
+    margin: 0 auto;
+    width: 100%;
+  }
+  &__subtitle {
+    color: var(--second-text-color);
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+
+    &--accent {
+      color: rgba(1, 163, 164, 1);
+    }
+  }
+
+  &__form {
+   margin-bottom: 10px;
+
+    &--input {
+      color: #c4c4c4;
+      font-family: "Roboto", sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 150%;
+      outline: none;
+      
+  display: block;
+  width: 100%;
+  font: inherit;
+  letter-spacing: unset;
+  word-spacing: unset;
+  line-height: 1;
+  text-shadow: none;
+  text-align: unset;
+  writing-mode: unset;
+  text-rendering: unset;
+  text-indent: 0;
+  color: inherit;
+  text-transform: none;
+  background-color: unset;
+  padding: 0;
+  border: 1px solid;
+  border-radius: 0;
+  box-sizing: border-box;
+  box-shadow: none;
+  outline: none;
+  margin: 0;
+  appearance: none;
+  cursor: default;
+  padding: 20px 32px;
+  border-color: #01a3a4;
+  margin-bottom: 20px;
+    }
+  }
+
+  &__terms{
+    color: #C4C4C4;
+text-align: center;
+font-family: 'Roboto', sans-serif;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%;
+  }
+
+}

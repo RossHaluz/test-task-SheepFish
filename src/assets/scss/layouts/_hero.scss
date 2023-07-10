@@ -1,0 +1,144 @@
+.hero{
+    background: var(--2, linear-gradient(159deg, #FECA57 0%, #E3AA2D 100%));
+    padding: 20px 0;
+
+&__banner-img{
+    width: 759.874px;
+height: 608.512px;
+}
+
+    &__list-foods-desc{
+@media screen and (max-width: 1023px) {
+    display: none;
+}
+        
+        display: flex;
+        align-items: center;
+
+        &--item{
+
+
+            &__img-desc{
+                position: absolute;
+                top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+            }
+        }
+    }
+
+    &__list-wrap-desc{
+        position: relative;
+    }
+
+    &__wrrapp{
+        @media screen and (min-width: 1024px) {
+            display: flex;
+            justify-content: end;
+        }
+    }
+
+    @media screen and (min-width: 1024px) {
+        padding: 70px 0;
+    }
+
+    &__subtitle-wrapp{
+display: flex;
+gap: 5px;
+
+        @media screen and (min-width: 1024px) {
+            flex-direction: column;
+            justify-content: end;
+        }
+    }
+
+    &__title{
+        color: var(--second-text-color);
+text-align: center;
+font-family: 'Bebas Neue', sans-serif;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.6px;
+text-transform: uppercase;
+
+@media screen and (min-width: 1024px) {
+    font-size: 96px;
+    letter-spacing: 4.8px;
+    line-height: normal;
+}
+    }
+
+    &__subtitle{
+        color: #FFF;
+text-align: center;
+font-family: 'Galada', cursive;
+font-size: 26px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+@media screen and (min-width: 1024px) {
+    display: flex;
+    flex-direction: column;
+    font-size: 72px;
+    line-height: normal;
+    margin-left: auto;
+}
+    }
+
+    &__img {
+        margin-top: 8px;
+        margin: 0 auto;
+
+        @media screen and (min-width: 1024px) {
+            display: none;
+        }
+
+    }
+
+    &__btn {
+        border: none;
+        color: var(--text-color-white);
+    }
+}
+
+.hero__list-foods{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 10px;
+    justify-content: center;
+
+@media screen and (min-width: 1024px) {
+    display: none;
+} 
+}
+
+.hero__list-foods-item{
+    width: 74px;
+height: 70px;
+}
+
+.hero_list-wrap{
+    position: relative;
+}
+
+.hero__list-foods-item__img{
+    position: absolute;
+    top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btn-wrapp{
+    display: flex;
+    justify-content: center;
+}
+
+.subtite{
+    @media screen and (min-width: 1024px) {
+        margin-right: 65px;
+    }
+}

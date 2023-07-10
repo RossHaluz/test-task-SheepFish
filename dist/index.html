@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link
+      href="https://fonts.googleapis.com/css2?family=Advent+Pro:wght@700&family=Bebas+Neue&family=Galada&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    
+    <link rel="stylesheet" href="./assets/css/style.min.css" />
+    <title>Home</title>
+  </head>
+  <body>
+    <div>
+      <header class="header">
+        <div class="container">
+          <div class="header__wrapp">
+            <nav class="header__nav">
+                <a href="/" class="header__nav--link">Home</a>
+                <a href="/" class="header__nav--link">Boxes</a>
+            </nav>
+              <div class="logo">
+                <img
+                  src="./assets/images/logo.png"
+                  alt="logo"
+                  width="96"
+                  height="50"
+                />
+              </div>
+              <nav class="header__nav">
+                <a href="/" class="header__nav--link">About</a>
+                <a href="/" class="header__nav--link">Account</a>
+            </nav>
+            <button
+              type="button"
+              class="mobile-menu-btn"
+              aria-label="Мобільне меню"
+              aria-expanded="false"
+              data-menu-open
+            >
+              <img
+                src="./assets/images/hamburger-menu.svg"
+                class="mobile-menu__icon"
+                alt="Мобільне меню"
+                width="17"
+                height="17"
+              />
+            </button>
+
+            <button
+              type="button"
+              class="mobile-menu-btn-close is-open"
+              aria-label="Закритя модального меню"
+              aria-expanded="false"
+              data-menu-open
+            >   
+             <svg class="mobile-menu__icon" width="17" height="17">
+                <use href="./assets/images/icons.svg#icon-cancel"></use>
+             </svg>
+            </button>
+          </div>
+        </div>
+      </header>
+
+      <div class="menu-overlay is-open">
+        <div class="mobile-menu">
+          <nav class="mobile-menu__nav">
+            <a href="/" class="mobile-menu__nav--link">Home</a>
+            <img
+              src="./assets/images/line.png"
+              alt="Line"
+              width="48"
+              height="5"
+              class="mobile-menu__nav--line"
+            />
+
+            <a href="/" class="mobile-menu__nav--link">What's inside</a>
+            <img
+              src="./assets/images/line.png"
+              alt="Line"
+              width="48"
+              height="5"
+              class="mobile-menu__nav--line"
+            />
+
+            <a href="/" class="mobile-menu__nav--link">Kiwi Eco Box</a>
+            <img
+              src="./assets/images/line.png"
+              alt="Line"
+              width="48"
+              height="5"
+              class="mobile-menu__nav--line"
+            />
+
+            <a href="/" class="mobile-menu__nav--link">About</a>
+            <img
+              src="./assets/images/line.png"
+              alt="Line"
+              width="48"
+              height="5"
+              class="mobile-menu__nav--line"
+            />
+
+            <a href="/" class="mobile-menu__nav--link">Account</a>
+          </nav>
+        </div>
+
+      </div>
+
+      
+      <main>
+        <!-- Hero Section -->
+        <section class="hero">
+          <div class="container">
+            <h1 class="hero__title">Everything You Need</h1>
+            <div class="hero__wrrapp">
+            <div class="hero__subtitle-wrapp">
+            <h3 class="hero__subtitle subtite">to Start Living</h3>
+            <h3 class="hero__subtitle">Zero-Waste</h3>
+          </div>
+        </div>
+            <ul class="hero__list-foods">
+              <li class="hero__list-foods-item">
+                <div class="hero_list-wrap">
+                  <img src="./assets/images/herro-ellips.png" alt="Herro ellips" />
+                  <img
+                    src="./assets/images/hero3.png"
+                    alt="Hero img"
+                    class="hero__list-foods-item__img"
+                    width="74"
+                    height="70"
+                  />
+                </div>
+              </li>
+              <li class="hero__list-foods-item">
+                <div class="hero_list-wrap">
+                  <img src="./assets/images/herro-ellips.png" alt="Herro ellips" />
+                  <img
+                    src="./assets/images/hero2.png"
+                    alt="Hero img"
+                    class="hero__list-foods-item__img"
+                    width="74"
+                    height="70"
+                  />
+                </div>
+              </li>
+              <li class="hero__list-foods-item">
+                <div class="hero_list-wrap">
+                  <img src="./assets/images/herro-ellips.png" alt="Herro ellips" />
+                  <img
+                    src="./assets/images/hero1.png"
+                    alt="Hero img"
+                    class="hero__list-foods-item__img"
+                    width="74"
+                    height="70"
+                  />
+                </div>
+              </li>
+              <li class="hero__list-foods-item">
+                <div class="hero_list-wrap">
+                  <img src="./assets/images/herro-ellips.png" alt="Herro ellips" />
+                  <img
+                    src="./assets/images/hero4.png"
+                    alt="Hero img"
+                    class="hero__list-foods-item__img"
+                    width="74"
+                    height="70"
+                  />
+                </div>
+              </li>
+            </ul>
+      
+            <img
+              src="./assets/images/box-food.png"
+              alt="Box food"
+              width="274"
+              height="201"
+              class="hero__img"
+            />
+      
+            <ul class="hero__list-foods-desc">
+              <li class="hero__list-foods-desc--item">
+                <div class="hero__list-wrap-desc">
+                  <img src="./assets/images/ellipse-desc.png" alt="Ellipse">
+                  <img src="./assets/images/hero-img1.png" alt="Hero food" class="hero__list-foods-desc--item__img-desc" width="341" height="212">
+                </div>
+              </li>
+              <li class="hero__list-foods-desc--item">
+                <div class="hero__list-wrap-desc">
+                  <img src="./assets/images/ellipse-desc.png" alt="Ellipse">
+                  <img src="./assets/images/hero-img2.png" alt="Hero food" class="hero__list-foods-desc--item__img-desc" width="508" height="318">
+                </div>
+              </li>
+      
+              <li class="hero__list-foods-desc--item">
+                <img src="./assets/images/hero-box-food.png" alt="Hero box food" class="hero__banner-img">
+              </li>
+      
+              <li class="hero__list-foods-desc--item">
+                <div class="hero__list-wrap-desc">
+                  <img src="./assets/images/ellipse-desc.png" alt="Ellipse">
+                  <img src="./assets/images/hero-img3.png" alt="Hero food" class="hero__list-foods-desc--item__img-desc">
+                </div>
+              </li>
+              <li class="hero__list-foods-desc--item">
+                <div class="hero__list-wrap-desc">
+                  <img src="./assets/images/ellipse-desc.png" alt="Ellipse">
+                  <img src="./assets/images/hero-img4.png" alt="Hero food" class="hero__list-foods-desc--item__img-desc">
+                </div>
+              </li>
+            </ul>
+      
+            <div class="btn-wrapp">
+            <button class="hero__btn btn">Start now</button>
+          </div>
+          </div>
+        </section>
+      
+        <!-- How it Works Section -->
+        <section class="works section">
+          <div class="container">
+            <h2 class="works__title section-title">How it Works</h2>
+            <ul class="works__list">
+              <li class="works__list-item">
+                <img src="./assets/images/works-img1.png" alt="Works img" />
+                <div>
+                  <h3 class="works__list-item__title">Join The Movement</h3>
+                  <p class="works__list-item__desc">
+                    Get started by signing up for monthly subscription. We bring you
+                    an easy way to start your zero-waste journey
+                  </p>
+                </div>
+                <div class="works__list-item__img-line">
+                  <div class="works__list-item__img-line__line"></div>
+                  <img
+                    src="./assets/images/line.png"
+                    alt="Line"
+                    class="works__list-item__img-line__img"
+                    width="48px"
+                    height="5px"
+                  />
+                  <div class="works__list-item__img-line__line"></div>
+                </div>
+              </li>
+              <li class="works__list-item">
+                <img src="./assets/images/works-img2.png" alt="Works img" />
+                <div>
+                  <h3 class="works__list-item__title">Get Your Box</h3>
+                  <p class="works__list-item__desc">
+                    Every month receive your box with essential products, but plastic
+                    free and safe for the environment
+                  </p>
+                </div>
+                <div class="works__list-item__img-line">
+                  <div class="works__list-item__img-line__line"></div>
+                  <img
+                    src="./assets/images/line.png"
+                    alt="Line"
+                    class="works__list-item__img-line__img"
+                    width="48px"
+                    height="5px"
+                  />
+                  <div class="works__list-item__img-line__line"></div>
+                </div>
+              </li>
+              <li class="works__list-item">
+                <img src="./assets/images/works-img3.png" alt="Works img" />
+                <div>
+                  <h3 class="works__list-item__title">Make a Difference</h3>
+                  <p class="works__list-item__desc">
+                    Small steps can lead to bigger changes, and now you are the
+                    change. Let's build community of people who care
+                  </p>
+                </div>
+                <div class="works__list-item__img-line">
+                  <div class="works__list-item__img-line__line"></div>
+                  <img
+                    src="./assets/images/line.png"
+                    alt="Line"
+                    class="works__list-item__img-line__img"
+                    width="48px"
+                    height="5px"
+                  />
+                  <div class="works__list-item__img-line__line"></div>
+                </div>
+              </li>
+            </ul>
+            <div class="btn-wrapp">
+            <button class="works__btn btn">Get the Box</button>
+          </div>
+          </div>
+        </section>
+      
+        <!-- Box Section -->
+        <section class="box section">
+          <div class="container">
+            <img src="./assets/images/line.png" class="box__line-img" alt="Line" />
+            <h2 class="box__title section-title">BOX OF A MONTH</h2>
+            <p class="box__desc">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+              veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+              commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+              occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+              mollit anim id est laborum
+            </p>
+      
+            <div class="box__wrapp">
+              <img
+                src="./assets/images/box-1.jpg"
+                alt="Box1"
+                class="box__wrapp--img"
+              />
+              <img
+                src="./assets/images/box-2.jpg"
+                alt="Box"
+                class="box__wrapp--img"
+              />
+            </div>
+      </div>
+      
+      <div class="btn-wrapp">
+            <button class="box__btn btn">See What's Inside</button>
+        </div>
+          </div>
+        </section>
+      
+        <!-- OUR MISSION Section -->
+        <section class="mission section">
+          <div class="container">
+            <img src="./assets/images/line.png" alt="" class="mission__line" />
+            <p class="mission__desc">OUR MISSION</p>
+            <h2 class="mission__title section-title">
+              We are here to help you live greener and more sustainably
+            </h2>
+            <h3 class="mission__subtitle">Small steps matter</h3>
+            <img
+              src="./assets/images/step.png"
+              alt="Step"
+              width="76px"
+              height="76px"
+              class="mission__img"
+            />
+          </div>
+        </section>
+      
+        <!-- Recent Posts Section -->
+        <section class="posts section">
+          <div class="container">
+            <p class="posts__desc">
+              Join the conversation an help us create a new world!
+            </p>
+            <h2 class="posts__title section-title">Recent Posts</h2>
+      
+            <ul class="posts__list card-set">
+              <li class="posts__list--item card-set-iteam">
+                <img
+                  src="./assets/images/post1.jpg"
+                  alt="Post"
+                  width="144px"
+                  height="165px"
+                  class="posts__list--item__img"
+                />
+              </li>
+              <li class="posts__list--item card-set-iteam">
+                <img
+                  src="./assets//images/post2.jpg"
+                  alt="Post"
+                  class="posts__list--item__img"
+                />
+              </li>
+              <li class="posts__list--item card-set-iteam">
+                <img
+                  src="./assets//images/post3.jpg"
+                  alt="Post"
+                  width="144px"
+                  height="165px"
+                  class="posts__list--item__img"
+                />
+              </li>
+              <li class="posts__list--item card-set-iteam">
+                <img
+                  src="./assets/images/post4.jpg"
+                  alt="Post"
+                  width="144px"
+                  height="165px"
+                  class="posts__list--item__img"
+                />
+              </li>
+            </ul>
+          </div>
+        </section>
+      
+        <!-- Blog Section -->
+        <section class="blog section">
+          <div class="container">
+            <h2 class="blog__title section-title">What's new in blog?</h2>
+            <div class="blog__wrapperr">
+              <img
+                src="./assets/images/blog-img1.png"
+                alt="Blog img"
+                class="blog__img"
+              />
+              <div class="blog__wrapp">
+                <h3 class="blog__subtitle">Why KIWI Eco Box?</h3>
+                <img src="./assets/images/line.png" alt="Line" class="blog__line" />
+                <p class="blog__desc">
+                  Get started by signing up for monthly subscription. We bring you an
+                  easy way to start your zero-waste journey
+                </p>
+                <div class="blog__link-wrapp">
+                  <a href="/" class="blog__link"
+                    >Read more <span class="blog__link--pluss">+</span></a
+                  >
+                </div>
+              </div>
+            </div>
+      
+            <div class="blog__slider">
+              <div class="blog__slider--line active"></div>
+              <div class="blog__slider--line"></div>
+              <div class="blog__slider--line"></div>
+            </div>
+          </div>
+        </section>
+      
+        <!-- Sign up Section -->
+        <section class="signup section">
+          <div class="container">
+            <img src="./assets/images/line.png" alt="" class="signup__line" />
+            <p class="signup__desc">Stay in the know</p>
+            <h2 class="signup__title section-title">
+              Hear about the latest sneak peaks and spoilers
+            </h2>
+            <img
+              src="./assets/images/signup-img.png"
+              alt="Signup img"
+              class="signup__img"
+            />
+            <h3 class="signup__subtitle">
+              get CAUSEBOX delivered directly
+              <span class="signup__subtitle--accent"> to your inbox!</span>
+            </h3>
+      
+            <form class="signup__form">
+              <input
+                type="text"
+                placeholder="Your email adress"
+                class="signup__form--input"
+              />
+              <div class="btn-wrapp">
+              <button class="signup__form--btn btn">Sign up</button>
+            </div>
+            </form>
+            <p class="signup__terms">
+              By clicking "sign up" you agree to receive emails from CAUSEBOX and
+              accept our web terms of use and privacy and cookie policy
+            </p>
+          </div>
+        </section>
+      
+        <!-- clients say Section -->
+        <section class="reviews section">
+          <div class="container">
+            <p class="reviews__desc">What do our</p>
+            <h2 class="reviews__title section-title">clients say</h2>
+      
+            <div class="reviews__customer">
+              <div class="reviews__customer--wrapp">
+                <img
+                  src="./assets/images/quotes.png"
+                  alt="Quotes"
+                  class="reviews__customer--quates"
+                />
+              </div>
+      
+              <div class="reviews__info--wrapp">
+                  <img
+                  src="./assets/images/customer.jpg"
+                  alt="Customer"
+                  class="reviews__customer--img"
+                />
+               <div class="reviews__rating-wrapper">
+                  <h3 class="reviews__customer--name">Jessica T.</h3>
+                  <div class="reviews__stars-wrapp">
+                    <img src="./assets/images/star.png" alt="" class="reviews__customer--star" width="16" height="16"/>
+                    <img src="./assets/images/star.png" alt="" class="reviews__customer--star" width="16" height="16"/>
+                    <img src="./assets/images/star.png" alt="" class="reviews__customer--star" width="16" height="16"/>
+                    <img src="./assets/images/star.png" alt="" class="reviews__customer--star" width="16" height="16"/>
+                    <img src="./assets/images/star.png" alt="" class="reviews__customer--star" width="16" height="16"/>
+        
+                    <span class="reviews__customer--rating">5/5</span>
+                  </div>
+               </div>
+              </div>
+            </div>
+      
+            <img src="./assets/images/line.png" alt="Line" class="reviews__line" />
+            <p class="reviews__text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Sit amet,
+              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+              et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+              magna aliqua. Ut enim ad minim veniam, quis nostrud.
+            </p>
+      
+            <div class="reviews__arrow-wrapp">
+              <button type="button" class="reviews__arrow-wrapp--btn">
+                  <img src="./assets/images/arrow-left.png" alt="arrow" class="reviews__arrow-wrapp--btn__img" width="11">
+              </button>
+              <button type="button" class="reviews__arrow-wrapp--btn">
+                  <img src="./assets/images/arrow-rigth.png" alt="arrow" class="reviews__arrow-wrapp--btn__img" height="11">
+              </button>
+            </div>
+          </div>
+        </section>
+      
+      </main>
+      
+      <script src="./assets/js/main.min.js"></script>
+      
+      
+
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__wrapp">
+            <img
+              src="./assets/images/logo.png"
+              alt="Logo"
+              width="134"
+              height="70"
+              class="footer__logo"
+            />
+            <nav class="footer__nav">
+              <a href="/" class="footer__nav--link">Home</a>
+              <a href="/" class="footer__nav--link">What's inside</a>
+              <a href="/" class="footer__nav--link">Kiwi Eco Box</a>
+              <a href="/" class="footer__nav--link">About</a>
+              <a href="/" class="footer__nav--link">Account</a>
+              <a href="/" class="footer__nav--link">blog</a>
+              <a href="/" class="footer__nav--link">Faq</a>
+              <a href="/" class="footer__nav--link">CONTACT US</a>
+            </nav>
+
+            <ul class="footer__social-list">
+              <li class="footer__social-list--item">
+                <a href="/">
+                  <svg class="footer__social-list--icon" width="30" height="30">
+                    <use href="./assets/images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer__social-list--item">
+                <a href="/">
+                  <svg class="footer__social-list--icon" width="30" height="30">
+                    <use href="./assets/images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer__social-list--item">
+                <a href="/">
+                  <svg class="footer__social-list--icon" width="30" height="30">
+                    <use href="./assets/images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer__social-list--item">
+                <a href="/">
+                  <svg class="footer__social-list--icon" width="30" height="30">
+                    <use href="./assets/images/icons.svg#icon-youtube"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__info-wrapp">
+            <p class="footer__info">Kiwi Eco Box © 2021</p>
+            <p class="footer__development">Development by SheepFish</p>
+            <img
+              src="./assets/images/footer-logo.png"
+              alt=""
+              class="footer__development-logo"
+              width="38"
+              height="30"
+            />
+          </div>
+        </div>
+      </footer>
+    </div>
+
+  </body>
+</html>

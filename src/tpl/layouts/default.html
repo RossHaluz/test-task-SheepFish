@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {{> head}}
+  </head>
+  <body>
+    <div>
+      <header class="header">
+        <div class="container">
+          <div class="header__wrapp">
+            <nav class="header__nav">
+                <a href="/" class="header__nav--link">Home</a>
+                <a href="/" class="header__nav--link">Boxes</a>
+            </nav>
+              <div class="logo">
+                <img
+                  src="./assets/images/logo.png"
+                  alt="logo"
+                  width="96"
+                  height="50"
+                />
+              </div>
+              <nav class="header__nav">
+                <a href="/" class="header__nav--link">About</a>
+                <a href="/" class="header__nav--link">Account</a>
+            </nav>
+            <button
+              type="button"
+              class="mobile-menu-btn"
+              aria-label="Мобільне меню"
+              aria-expanded="false"
+              data-menu-open
+            >
+              <img
+                src="./assets/images/hamburger-menu.svg"
+                class="mobile-menu__icon"
+                alt="Мобільне меню"
+                width="17"
+                height="17"
+              />
+            </button>
+
+            <button
+              type="button"
+              class="mobile-menu-btn-close is-open"
+              aria-label="Закритя модального меню"
+              aria-expanded="false"
+              data-menu-open
+            >   
+             <svg class="mobile-menu__icon" width="17" height="17">
+                <use href="./assets/images/icons.svg#icon-cancel"></use>
+             </svg>
+            </button>
+          </div>
+        </div>
+      </header>
+
+      <div class="menu-overlay is-open">
+        <div class="mobile-menu">
+          <nav class="mobile-menu__nav">
+            <a href="/" class="mobile-menu__nav--link">Home</a>
+            <img
+              src="./assets/images/line.png"
+              alt="Line"
+              width="48"
+              height="5"
+              class="mobile-menu__nav--line"
+            />
+
+            <a href="/" class="mobile-menu__nav--link">What's inside</a>
+            <img
+              src="./assets/images/line.png"
+              alt="Line"
+              width="48"
+              height="5"
+              class="mobile-menu__nav--line"
+            />
+
+            <a href="/" class="mobile-menu__nav--link">Kiwi Eco Box</a>
+            <img
+              src="./assets/images/line.png"
+              alt="Line"
+              width="48"
+              height="5"
+              class="mobile-menu__nav--line"
+            />
+
+            <a href="/" class="mobile-menu__nav--link">About</a>
+            <img
+              src="./assets/images/line.png"
+              alt="Line"
+              width="48"
+              height="5"
+              class="mobile-menu__nav--line"
+            />
+
+            <a href="/" class="mobile-menu__nav--link">Account</a>
+          </nav>
+        </div>
+
+      </div>
+
+      {{> body}}
+
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__wrapp">
+            <img
+              src="./assets/images/logo.png"
+              alt="Logo"
+              width="134"
+              height="70"
+              class="footer__logo"
+            />
+            <nav class="footer__nav">
+              <a href="/" class="footer__nav--link">Home</a>
+              <a href="/" class="footer__nav--link">What's inside</a>
+              <a href="/" class="footer__nav--link">Kiwi Eco Box</a>
+              <a href="/" class="footer__nav--link">About</a>
+              <a href="/" class="footer__nav--link">Account</a>
+              <a href="/" class="footer__nav--link">blog</a>
+              <a href="/" class="footer__nav--link">Faq</a>
+              <a href="/" class="footer__nav--link">CONTACT US</a>
+            </nav>
+
+            <ul class="footer__social-list">
+              <li class="footer__social-list--item">
+                <a href="/">
+                  <svg class="footer__social-list--icon" width="30" height="30">
+                    <use href="./assets/images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer__social-list--item">
+                <a href="/">
+                  <svg class="footer__social-list--icon" width="30" height="30">
+                    <use href="./assets/images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer__social-list--item">
+                <a href="/">
+                  <svg class="footer__social-list--icon" width="30" height="30">
+                    <use href="./assets/images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer__social-list--item">
+                <a href="/">
+                  <svg class="footer__social-list--icon" width="30" height="30">
+                    <use href="./assets/images/icons.svg#icon-youtube"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__info-wrapp">
+            <p class="footer__info">Kiwi Eco Box © 2021</p>
+            <p class="footer__development">Development by SheepFish</p>
+            <img
+              src="./assets/images/footer-logo.png"
+              alt=""
+              class="footer__development-logo"
+              width="38"
+              height="30"
+            />
+          </div>
+        </div>
+      </footer>
+    </div>
+
+  </body>
+</html>

@@ -1,0 +1,39 @@
+.mission{
+
+    &__line{
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+
+    &__desc{
+color: var(--accent-color);
+font-family: 'Roboto', sans-serif;
+text-align: center;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.2px;
+text-transform: uppercase;
+margin-bottom: 20px;
+    }
+
+    &__title {
+        font-size: 32px;
+        text-transform: uppercase;
+        font-family: 'Bebas Neue', sans-serif;
+    }
+
+    &__subtitle{
+        text-align: center;
+        font-family: 'Galada', cursive; 
+        color: var(--accent-color);
+font-size: 26px;
+font-style: normal;
+line-height: normal;
+    }
+
+    &__img{
+        margin: 0 auto;
+    }
+}
